@@ -72,31 +72,16 @@ lord-icon{
 
 #features{
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   text-align: justify;
-  justify-content: center;
   font-size: 15px;
-  margin-left: 10%;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .divs{
   margin-top: 0px;
-}
-
-.premium{
-  position:relative;
-  left:-70px
-}
-
-.quality{
-  position:relative;
-  left:-2px
-}
-
-lord-icon{
-  position: relative;
-  top: 75px;
-  left:-130px
 }
 
 li{
@@ -202,5 +187,19 @@ a{
 
 button:hover{
   background-color: #66ee788c;
+}
+
+#features > div{
+  display: flex;
+  align-items: center;
+  align-content: stretch;
+  width: 80%;
+  box-sizing: border-box;
+}
+
+.how-works{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
