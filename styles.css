@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+header{
+  display: flex;
+  background-color:rgb(255, 255, 255);
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  border-bottom: 5px double #66ee78;
+}
+
+#header-img{
+  width: 70px;
+  height: auto;
+  margin-left: 20px;
+}
+
+.logo{
+  width: 60%;
+  margin: 0;
+}
+
+.nav-link{
+  margin-right: 86px;
+}
+
+#nav-bar:last-child{
+  margin-right: 0;
+}
+
+#nav-bar{
+  margin-top: 25px;
+}
+
+.hero{
+  text-align: center;
+  display: block;
+}
+
+.title{
+  margin: 10px 0 30px 0;
+}
+
+#email{
+  padding: 5px 30px 5px 5px;
+}
+
+.email{
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+#submit{
+  border-radius: 0%;
+  border: none;
+  padding: 10px;
+  background-color: #66ee78;
+}
+
+lord-icon{
+  width: 120px;
+  height: 120px;
+}
+
+#features{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: justify;
+  justify-content: center;
+  font-size: 15px;
+  margin-left: 10%;
+}
+
+.divs{
+  margin-top: 0px;
+}
+
+.premium{
+  position:relative;
+  left:-70px
+}
+
+.quality{
+  position:relative;
+  left:-2px
+}
+
+lord-icon{
+  position: relative;
+  top: 75px;
+  left:-130px
+}
+
+li{
+  list-style-type: none;
+}
+
+#pricing{
+  display: flex;
+  margin-top: 70px;
+  justify-content: space-evenly;
+}
+
+.cards{
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+width: calc(100% / 3);
+margin: 10px;
+border: 1px solid #000;
+border-radius: 3px;
+}
+
+.cards > .head {
+  background-color: #66ee788c;
+  color: black;
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.cards   > ol {
+  margin: 15px 0;
+  position: relative;
+  left:-20px
+}
+
+.cards > ol > li {
+  padding: 5px 0;
+}
+
+li {
+  list-style: none;
+}
+
+.cards {
+  text-align: center;
+}
+
+.cards > button {
+  border: 0;
+  margin: 15px 0;
+  background-color: #66ee78;
+  font-weight: 400;
+}
+.btn {
+  padding: 0 20px;
+  height: 40px;
+  font-size: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+  border: 3px black solid;
+  border-radius: 2px;
+  background: transparent;
+    background-color: transparent;
+  cursor: pointer;
+}
+
+li{
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  margin-top: 30px;
+  background-color: hsl(0, 0%, 87%);
+  padding: 20px;
+}
+
+
+footer ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul li {
+  margin: 0 10px;
+}
+
+footer > span {
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9em;
+  color: #444;
+}
+
+a{
+  color: #444;
+  text-decoration: none;
+}
+
+button:hover{
+  background-color: #66ee788c;
+}
+
